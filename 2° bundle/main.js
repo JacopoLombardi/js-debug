@@ -25,7 +25,7 @@ checkAge();
 
 
     // 1- Che cosa fa questo codice?            -Controlla se il valore 'myAge' ha più o meno di 18 anni e stampa un messaggio diverso nei due casi. 
-    // 2- Sono presenti errori di sintassi?     -SI   a riga 16 'const'.
+    // 2- Sono presenti errori di sintassi?     -SI è presente 1 errore a riga 16 'const'.
     // 3- Sono presenti errori logici?          -NO.
 
 
@@ -33,17 +33,17 @@ checkAge();
 
 
 
-// // ESERCIZIO 2
-// function printColorsNumber() {
-//     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
-//     console.log(`Nella mia palette ci sono ${colors.lenght} colori!`);
-// }
-// printColorsNumber();
+// ESERCIZIO 2
+function printColorsNumber() {
+    const colors = ['blue', 'red', 'yellow', 'green', 'black'];
+    console.log(`Nella mia palette ci sono ${colors.length} colori!`);
+};
+printColorsNumber();
 
 
-//     // 1- Che cosa fa questo codice?            -
-//     // 2- Sono presenti errori di sintassi?     -
-//     // 3- Sono presenti errori logici?          -
+    // 1- Che cosa fa questo codice?            -Dato un array di colori, stampa un messaggio con la lunghezza dell'array.
+    // 2- Sono presenti errori di sintassi?     -SI è presente 1 errore a riga 39 'lenght'.
+    // 3- Sono presenti errori logici?          -NO.
 
 
 
