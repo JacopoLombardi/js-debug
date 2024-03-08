@@ -1,1 +1,2 @@
-# js-debug
+Debuggare i vari codici forniti
+===
