@@ -130,32 +130,7 @@ function checkAccessImproved() {
 checkAccessImproved();
 
 
-    // 1- Che cosa fa questo codice?            -
+    // 1- Che cosa fa questo codice?            -Inserita la mail dell'user nel prompt, questa viene controllata in un 'for' e in 'if se è presente nella lista delle mail che possono accedere e controlliamo se 
+    //                                           la mail inserita ha più di 5 lettere, infine fuori dal ciclo in un 'if else' stampiamo un messaggio positivo al riscontro oppure negativo.
     // 2- Sono presenti errori di sintassi?     -NO.
     // 3- Sono presenti errori logici?          -SI è presente 1 errore, l'if else che stampa il messaggio deve stare fuori dal ciclo for, altrimenti il messaggio viene stampato tante volte quanto è lungo l'array 'addresses'.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
