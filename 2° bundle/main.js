@@ -69,25 +69,31 @@ addNumbers();
 
 
 
-// // ESERCIZIO 4
-// function checkAccess() {
-//     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
-//     const userEmail = prompt('Inserisci il tuo indirizzo email');
+// ESERCIZIO 4
+function checkAccess() {
+    const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
+    const userEmail = prompt('Inserisci il tuo indirizzo email');
 
-//     let grantAccess = 'false';
+    let grantAccess = 'false';
 
-//     if (addresses.includes(userEmail)) {
-//         grantAccess = 'true';
-//     }
+    if (addresses.includes(userEmail)) {
+        grantAccess = 'true';
+    };
 
-//     if (grantAccess === true) {
-//         console.log('Accesso consentito!');
-//     } else {
-//         console.log('Accesso negato!');
-//     }
-// }
-// checkAccess();
+    if (grantAccess === 'true') {
+        console.log('Accesso consentito!');
+    } else {
+        console.log('Accesso negato!');
+    };
+};
+checkAccess();
 
+
+
+    // 1- Che cosa fa questo codice?            -L'user inserisce una mail tramite prompt, tramite una condizione verifichiamo se è presente nell'array delle mail che possono accedere, un altra condizione 
+    //                                           si occupa di stampare in console un messaggio diverso a seconda se può o non può accedere.
+    // 2- Sono presenti errori di sintassi?     -SI è presente 1 errore a riga 83 'true'.
+    // 3- Sono presenti errori logici?          -NO.
 
 
 
@@ -124,7 +130,9 @@ addNumbers();
 //     checkAccessImproved();
 
 
-
+    // 1- Che cosa fa questo codice?            -
+    // 2- Sono presenti errori di sintassi?     -
+    // 3- Sono presenti errori logici?          -
 
 
 
