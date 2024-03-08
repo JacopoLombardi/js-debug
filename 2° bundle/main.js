@@ -50,19 +50,19 @@ printColorsNumber();
 
 
 
-// // ESERCIZIO 3
-// function addNumbers() {
-//     const userNumber = prompt('Inserisci un numero');
-//     const total = userNumber + 12;
+// ESERCIZIO 3
+function addNumbers() {
+    const userNumber = parseInt(prompt('Inserisci un numero'));
+    const total = userNumber + 12;
 
-//     console.log(`Il risultato finale è ${total}`);
-// }
-// addNumbers();
+    console.log(`Il risultato finale è ${total}`);
+};
+addNumbers();
 
 
-//     // 1- Che cosa fa questo codice?            -
-//     // 2- Sono presenti errori di sintassi?     -
-//     // 3- Sono presenti errori logici?          -
+    // 1- Che cosa fa questo codice?            -L'user deve inserire un numero tramite prompt e viene sommato 12 al suo numero, poi viene stampato un messaggio con il totale.
+    // 2- Sono presenti errori di sintassi?     -NO.
+    // 3- Sono presenti errori logici?          -SI è presente 1 errore a riga 55 'prompt('Inserisci un numero')' ---> non era presente il parseInt().
 
 
 
