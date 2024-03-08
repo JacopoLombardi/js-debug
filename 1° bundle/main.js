@@ -13,11 +13,11 @@
 // ESERCIZIO 1
 for (let i = 0; i < 5; i++) {
     console.log(i);
-}
+};
 
 
     // 1- Che cosa fa questo codice?            -Stampa in console l'indice per 5 volte.
-    // 2- Sono presenti errori di sintassi?     -E' presente 1 errore a riga 14 '>'.
+    // 2- Sono presenti errori di sintassi?     -Si è presente 1 errore a riga 14 '>'.
     // 3- Sono presenti errori logici?          -NO.
 
 
@@ -27,13 +27,16 @@ for (let i = 0; i < 5; i++) {
 
 // ESERCIZIO 2
 function addIfEven(num) {
-    if (num % 2 = 0) {
+    if (num % 2 === 0) {
         return num + 5;
     }
     return num;
-}
+};
 
 
+    // 1- Che cosa fa questo codice?           -E' una funzione che calcola se il 'num' dato è pari o dispari, se è pari gli somma 5.
+    // 2- Sono presenti errori di sintassi?    -SI è presente un errore a riga 30 '='.
+    // 3- Sono presenti errori logici?         -NO.
 
 
 
