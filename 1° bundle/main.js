@@ -29,25 +29,32 @@ for (let i = 0; i < 5; i++) {
 function addIfEven(num) {
     if (num % 2 === 0) {
         return num + 5;
-    }
+    };
     return num;
 };
 
 
     // 1- Che cosa fa questo codice?           -E' una funzione che calcola se il 'num' dato è pari o dispari, se è pari gli somma 5.
-    // 2- Sono presenti errori di sintassi?    -SI è presente un errore a riga 30 '='.
+    // 2- Sono presenti errori di sintassi?    -SI è presente 1 errore a riga 30 '='.
     // 3- Sono presenti errori logici?         -NO.
 
 
 
 
 
-// // ESERCIZIO 3
-// function loopToFive() {
-//     for (let i = 0, i < 5, i++) {
-//         console.log(i);
-//     }
-// }
+
+
+// ESERCIZIO 3
+function loopToFive() {
+    for (let i = 0; i < 5; i++) {
+        console.log(i);
+    };
+};
+
+
+    // 1- Che cosa fa questo codice?           -Quando viene invocata la funzione si attiva il ciclo, stampando 5 volte l'indice in console.
+    // 2- Sono presenti errori di sintassi?    -SI sono presenti 2 errori a riga 49 ';'.
+    // 3- Sono presenti errori logici?         -NO.
 
 
 
