@@ -101,38 +101,38 @@ checkAccess();
 
 
 
-// // ESERCIZIO 5 (suggerimento: c'è un solo errore)
-// function checkAccessImproved() {
-//     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
+// ESERCIZIO 5 (suggerimento: c'è un solo errore)
+function checkAccessImproved() {
+    const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
 
-//     const userEmail = prompt('Inserisci il tuo indirizzo email');
+    const userEmail = prompt('Inserisci il tuo indirizzo email');
 
-//     let grantAccess = 'false';
+    let grantAccess = 'false';
 
-//     for (let i = 0; i < addresses.length; i++) {
-//         const email = addresses[i];
+    for (let i = 0; i < addresses.length; i++) {
+        const email = addresses[i];
 
-//         if (userEmail.length > 5) {
+        if (userEmail.length > 5  &&  email === userEmail) {
+            grantAccess = 'true';
+            
+            // if (email === userEmail) {
+            //     grantAccess = 'true';
+            // };
+        };
+    };
 
-//             if (email === userEmail) {
-//                 grantAccess = 'true';
-
-//             }
-
-//         }
-
-//         if (grantAccess) {
-//             console.log('Accesso consentito!');
-//         } else {
-//             console.log('Accesso negato!');
-//         }
-//     }
-//     checkAccessImproved();
+    if (grantAccess) {
+        console.log('Accesso consentito!');
+    } else {
+        console.log('Accesso negato!');
+    };
+};
+checkAccessImproved();
 
 
     // 1- Che cosa fa questo codice?            -
-    // 2- Sono presenti errori di sintassi?     -
-    // 3- Sono presenti errori logici?          -
+    // 2- Sono presenti errori di sintassi?     -NO.
+    // 3- Sono presenti errori logici?          -SI è presente 1 errore, l'if else che stampa il messaggio deve stare fuori dal ciclo for, altrimenti il messaggio viene stampato tante volte quanto è lungo l'array 'addresses'.
 
 
 
